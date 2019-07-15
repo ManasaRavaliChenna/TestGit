@@ -1,6 +1,6 @@
 target := sample-hello
 
-all compile : $(target)
+all: $(target)
 
 arithem: main.o addition.o subtraction.o multiplication.o
 	gcc -o sample-hello main.o addition.o subtraction.o multiplication.o
