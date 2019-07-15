@@ -3,7 +3,7 @@ target := arithem
 all compile : $(target)
 
 arithem: main.o addition.o subtraction.o multiplication.o
-        gcc -o arithem_new main.o addition.o subtraction.o multiplication.o
+        gcc -o arithem main.o addition.o subtraction.o multiplication.o
 
 main.o: main.c
         gcc -c main.c
