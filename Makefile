@@ -1,9 +1,9 @@
-target := arithem
+target := sample-hello
 
 all compile : $(target)
 
 arithem: main.o addition.o subtraction.o multiplication.o
-        gcc -o arithem main.o addition.o subtraction.o multiplication.o
+        gcc -o sample-hello main.o addition.o subtraction.o multiplication.o
 
 main.o: main.c
         gcc -c main.c
