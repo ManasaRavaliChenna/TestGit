@@ -2,7 +2,7 @@ target := sample-hello
 
 all: $(target)
 
-arithem: main.o addition.o subtraction.o multiplication.o
+$(target): main.o addition.o subtraction.o multiplication.o
 	gcc -o sample-hello main.o addition.o subtraction.o multiplication.o
 
 main.o: main.c
