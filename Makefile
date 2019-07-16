@@ -1,4 +1,5 @@
 export CC
+
 target := sample-hello
 
 all: $(target)
