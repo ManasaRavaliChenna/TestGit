@@ -1,3 +1,5 @@
+#My makefile
+
 export CC
 
 target := sample-hello
